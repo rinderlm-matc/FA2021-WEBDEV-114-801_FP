@@ -1,0 +1,45 @@
+@import 'colors.scss';
+
+input {
+    width: 100%;
+    border: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #DDDDDD;
+}
+
+input:focus,
+textarea:focus
+select:focus {
+    box-shadow: 0 0 5px $primary-color;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid $primary-color;
+}
+
+input[type=submit] {
+    margin-top: 1.5em;
+    background-position: center;
+    transition: background 0.8s;
+    background-color: $primary-color;
+    border: none;
+    display:block;
+    width: 100%;
+    align-content:center;
+}
+
+input[type=submit]:hover {
+    background: $secondary-color 
+    radial-gradient(circle, transparent 1%, $secondary-color 1%) center/15000%;
+}
+
+input[type=submit]:active {
+    background-color: $secondary-color; // #6eb9f7;
+    background-size: 100%;
+    transition: background 0s;
+}

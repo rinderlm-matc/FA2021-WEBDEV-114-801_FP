@@ -1,0 +1,9 @@
+{
+  "type": "mongodb",
+  "url": "mongodb://cryptomarket-shard-00-02.oeo5k.azure.mongodb.net:27017/CryptoMarket?ssl=true&replicaSet=atlas-1vy5yg-shard-0&authSource=admin&retryWrites=true&w=majority",  
+  "useNewUrlParser": true,
+  "synchronize": true,
+  "logging": true,
+  "entities": ["data/entity/*.ts"],
+  "migrations": ["data/migration/**/*.ts"]
+}
