@@ -1,0 +1,126 @@
+.splash {
+  width: 100%;
+}
+
+.hero-splash {
+  height: 500px;
+  box-shadow: 1px 1px 1px #696969;
+  display: block;
+  position: relative;
+}
+
+.hero-splash::before {
+  content: "";
+  background-image: url("/img/hero-coin.jfif");
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+}
+
+.hero-content img {
+  padding-top: 1em;
+  height: 60px;
+}
+
+.hero-content h1 {
+  font-family: Coronetscript, cursive !important;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+.hero-content p {
+  margin: auto;
+  background: white;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 100%, white 0%);
+  text-shadow: 1px 1px 1px #696969;
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-bottom: 1em;
+  color: #4c7fae;
+}
+
+.hero-content button {
+  margin-top: 5em;
+  height: 3em;
+  width: 10em;
+  border-radius: 5%;
+  border: none;
+  opacity: 0.4;
+  font-weight: bolder;
+  font-size: 1.25em;
+  color: black;
+  border: 3px 3px solid #696969;
+  box-shadow: 3px 3px solid #696969;
+}
+
+.hero-content button:hover {
+  opacity: 0.75;
+  color: #4c7fae;
+}
+
+.info-splash {
+  width: inherit;
+}
+
+.info-splash h2 {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.splash-card {
+  text-align: center;
+}
+
+.splash-card figcaption {
+  font-size: 0.8em;
+}
+
+.list-splash {
+  text-align: center;
+}
+
+.list-splash h2 {
+  text-align: center;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.list-splash li {
+  padding: 1.25em;
+  display: block;
+  text-align: start;
+  padding-left: 25%;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.list-splash li:nth-child(odd) {
+  background-color: #696969;
+}
+
+.list-splash li img {
+  vertical-align: middle;
+  padding-right: 1.5em;
+}
+
+@media (min-width: 48em) {
+  .class {
+    display: none;
+  }
+}

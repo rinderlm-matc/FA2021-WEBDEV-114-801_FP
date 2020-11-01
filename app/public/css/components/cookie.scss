@@ -1,0 +1,33 @@
+@import '../colors.scss';
+
+.cookie-consent {
+    position: fixed;
+    bottom: 40px;
+    left: 30%;
+    right: 10%;
+    width: 60%;
+    padding: 5px 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cookie-consent a {
+    color: $alert-color;
+    font-weight: 500;
+    font-size: .9em;
+    text-decoration: none;
+    
+  }
+  
+  .cookie-consent p {
+    font-weight: 500;
+    font-size: .9em;
+    color: $secondary-color;  
+  }
+  
+  .cookie-accept {
+    cursor: pointer;
+  }

@@ -7,6 +7,5 @@ export class Util {
   }
 
   static getDatabaseConnection() {
-   
-  }
+  } 
 }

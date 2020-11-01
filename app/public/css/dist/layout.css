@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ddd;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  background-color: #3059fc;
+  box-shadow: 0.5px 0.5px 0.75px black;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  z-index: 3;
+}
+
+main {
+  height: 100%;
+  padding-top: 64px;
+  padding-bottom: 250px;
+}
+
+.content {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.sidebar {
+  clear: right;
+  width: 100%;
+  background: #4c7fae;
+}
+
+.splash {
+  width: 100%;
+}
+
+aside {
+  width: 25%;
+  background-color: black;
+}
+
+footer {
+  height: 3em;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+  background-color: #696969;
+  color: #3059fc;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media (min-width: 48em) {
+  .content {
+    width: 75%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 25%;
+    float: right;
+  }
+}
+.hero-content button:hover {
+  opacity: 0.75;
+  color: #4c7fae;
+}
+
+.splash-card {
+  text-align: center;
+}
+
+.splash-card figcaption {
+  font-size: 0.8em;
+}

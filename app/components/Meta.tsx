@@ -1,4 +1,4 @@
-import { author, description, keywords, viewport } from '../constants'
+import { author, description, keywords, title, viewport } from '../constants'
 
 import Head from 'next/head'
 import { MetaProps } from '../interfaces/props/MetaProps'
@@ -16,11 +16,19 @@ class Meta extends React.PureComponent<MetaProps> {
             <Head>
                 <title>{this.props.title}</title>
                 <meta charSet="UTF-8" />
-                <meta name="viewport" content={viewport} />
+                <meta name="viewport" content={ viewport } />
                 <meta name="author" content={ author }/>
                 <meta name="description" content={ description }/>
                 <meta name="keywords" content={ keywords }/>
-                <link rel="shortcut icon" href={Util.getAssetUrl("/img/favicon.ico")} />  
+                <meta name="robots" content="index, follow" />
+                <meta property="og:type" content="crypto accountancy" />
+                <meta property="og:title" content="Crypto Accountant" />
+                <meta property="og:description" content={ description } />
+                <meta property="og:image" content={ Util.getAssetUrl("/img/favicon.ico") } />
+                <meta property="og:url" content="PERMALINK" />
+                <meta property="og:site_name" content={title} />
+                <link rel="shortcut icon" href={ Util.getAssetUrl("/img/favicon.ico") } />  
+                <link rel="canonical" href="https://mcaweb.matc.edu/rinderlm/webdev114/final/" />
             </Head>
         );
     }

@@ -1,6 +1,6 @@
 export const title: string = "Crypto Accountant";
 export const author: string = "Michael G. Rinderle, R.L.";
-export const copyright: string = "copyright 2020";
+export const copyright: string = "cryptoaccountant.com (c) 2020";
 
 export const description: string = "copyright 2020";
 export const keywords: string = "copyright 2020";

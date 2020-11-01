@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.db = exports.pass = exports.admin = exports.isProd = exports.baseStaticPath = exports.viewport = exports.keywords = exports.description = exports.copyright = exports.author = exports.title = void 0;
+exports.title = "Crypto Accountant";
+exports.author = "Michael G. Rinderle, R.L.";
+exports.copyright = "cryptoaccountant.com (c) 2020";
+exports.description = "copyright 2020";
+exports.keywords = "copyright 2020";
+exports.viewport = "width=device-width, initial-scale=1.0";
+exports.baseStaticPath = '/rinderlm/webdev114/final';
+exports.isProd = process.env.NODE_ENV === 'production';
+exports.admin = "admin";
+exports.pass = "bJghoyl3JJkdKAFi";
+exports.db = "CryptoMarket";

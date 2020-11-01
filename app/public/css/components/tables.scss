@@ -1,0 +1,20 @@
+@import '../colors.scss';
+
+@mixin font-size-mixin {
+    font-size: .70em;
+  }
+
+table {
+    margin-top: 1.5em;
+    width: 100%;
+    background-color: $dark-color;
+}
+
+tr th{
+    @include font-size-mixin;
+    background: white;
+}
+
+tr td {
+    @include font-size-mixin;
+}

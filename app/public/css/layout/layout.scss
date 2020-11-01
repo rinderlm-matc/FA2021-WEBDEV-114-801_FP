@@ -1,0 +1,69 @@
+@import '../colors.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ background: $body-bg-color;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gutter {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.dummy-height {
+  min-height: 500px;
+}
+
+header {
+  background-color: $header-bg-color;
+  box-shadow: .5px .5px .75px black;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  z-index: 3;
+}
+
+main {
+  height: 100%;
+  padding-top: 64px;
+  // padding-bottom: 250px;
+}
+
+.content {
+  float:left;
+  width:100%;
+  height:100%;
+  background: transparent;
+}
+
+.sidebar {
+  clear:right;
+  width:100%;
+  background: $secondary-color;
+}
+
+aside {
+    width:25%;
+    background-color: black;
+}
+
+@media (min-width: 48em){
+  .content {
+      width: 75%;
+      float:left;
+  }
+  .sidebar {
+      width: 25%;
+      float: right;
+  }
+}

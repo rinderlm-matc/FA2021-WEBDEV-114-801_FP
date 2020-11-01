@@ -1,0 +1,68 @@
+.hero-splash {
+  height: 500px;
+  box-shadow: 1px 1px 1px #696969;
+  margin-bottom: 2em;
+  display: block;
+  position: relative;
+  margin-bottom: 5em;
+}
+
+.hero-splash::before {
+  content: "";
+  background-image: url("/img/hero-coin.jfif");
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: cover;
+  position: absolute;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+}
+
+.hero-content img {
+  padding-top: 2em;
+  height: 60px;
+}
+
+.hero-content h1 {
+  font-family: Coronetscript, cursive !important;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+.hero-content p {
+  margin: auto;
+  background: white;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 100%, white 0%);
+  box-shadow: 0.5px 0.5px 0.75px #696969;
+  text-shadow: 1px 1px 1px #696969;
+  font-size: 1.5em;
+  font-weight: 900;
+  padding-bottom: 1em;
+  color: #4c7fae;
+}
+
+.hero-content button {
+  margin-top: 5em;
+  height: 3em;
+  width: 10em;
+  border-radius: 5%;
+  border: none;
+  opacity: 0.4;
+  font-weight: bolder;
+  font-size: 1.25em;
+  color: black;
+  border: 3px 3px solid #696969;
+  box-shadow: 3px 3px solid #696969;
+}

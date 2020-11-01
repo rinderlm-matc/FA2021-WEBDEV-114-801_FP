@@ -1,0 +1,41 @@
+input {
+  width: 100%;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+
+input:focus,
+textarea:focus select:focus {
+  box-shadow: 0 0 5px #3059fc;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #3059fc;
+}
+
+input[type=submit] {
+  margin-top: 1.5em;
+  background-position: center;
+  transition: background 0.8s;
+  background-color: #3059fc;
+  border: none;
+  display: block;
+  width: 100%;
+  align-content: center;
+}
+
+input[type=submit]:hover {
+  background: #4c7fae radial-gradient(circle, transparent 1%, #4c7fae 1%) center/15000%;
+}
+
+input[type=submit]:active {
+  background-color: #4c7fae;
+  background-size: 100%;
+  transition: background 0s;
+}

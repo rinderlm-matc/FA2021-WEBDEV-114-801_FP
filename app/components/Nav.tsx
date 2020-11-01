@@ -11,6 +11,11 @@ class Nav extends React.PureComponent {
             responsive: "",
             pages: [  
                 {
+                    index: 3,
+                    title: "PROFILE",
+                    route: "/profile"
+                },
+                {
                     index: 2,
                     title: "ABOUT",
                     route: "/about"

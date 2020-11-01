@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #ddd;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.gutter {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.dummy-height {
+  min-height: 500px;
+}
+
+header {
+  background-color: #3059fc;
+  box-shadow: 0.5px 0.5px 0.75px black;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  z-index: 3;
+}
+
+main {
+  height: 100%;
+  padding-top: 64px;
+}
+
+.content {
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.sidebar {
+  clear: right;
+  width: 100%;
+  background: #4c7fae;
+}
+
+aside {
+  width: 25%;
+  background-color: black;
+}
+
+@media (min-width: 48em) {
+  .content {
+    width: 75%;
+    float: left;
+  }
+
+  .sidebar {
+    width: 25%;
+    float: right;
+  }
+}
