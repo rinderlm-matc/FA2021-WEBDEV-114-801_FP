@@ -7,7 +7,7 @@ import { isProd } from '../constants'
 
 function App({ Component, pageProps }: AppProps) {
 
-  // importng css override for deployment
+  // importing css override for deployment
   if (isProd)
     require('../public/css/production.scss');
 

@@ -17,7 +17,7 @@ require("reflect-metadata");
 var constants_1 = require("../constants");
 function App(_a) {
     var Component = _a.Component, pageProps = _a.pageProps;
-    // importng css override for deployment
+    // importing css override for deployment
     if (constants_1.isProd)
         require('../public/css/production.scss');
     return React.createElement(Component, __assign({}, pageProps));

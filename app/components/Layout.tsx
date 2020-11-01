@@ -55,10 +55,20 @@ class Layout extends React.PureComponent<LayoutProps> {
             (
               <div className="cookie-consent">
                 <p>
-                  This is a statically exported <a href="https://www.nextjs.com" target="_blank">NextJs</a> project.&nbsp;
+                  This is a statically exported <a href="https://www.nextjs.com" target="_blank">NextJS</a> project.&nbsp;
                   It was build in Typescript superset, React HTML rendering, Sass CSS compilation, 
                   and Mongo database backend. You can browse the project files at my public github&nbsp;
                   <a href="https://github.com/rinderlm-matc/FA2021-WEBDEV-114-801_FP" target="_blank">repository</a>.
+                  You can also grab a test crypto trading ledger
+                  <a href="https://github.com/rinderlm-matc/FA2021-WEBDEV-114-801_FP/blob/master/app/public/files/trades.csv" target="_blank">
+                  &nbsp;csv file
+                  </a>
+                  &nbsp;to test on the profile page. NextJS has been configured to combine all SASS stylesheets into a style 
+                  tag in the head. My custom css framework is located <a href="https://github.com/rinderlm-matc/FA2021-WEBDEV-114-801_FP/tree/master/app/public/css" target="_blank">
+                    here
+                  </a>
+                  &nbsp; for easy viewing. If having a statically compiled css stylesheet is absolutely required for the final project
+                  I can reconfigure it after my workflow is mostly done. 
                 </p>
                 <p className="cookie-accept" onClick={ this.acceptCookie }>x</p>
               </div>

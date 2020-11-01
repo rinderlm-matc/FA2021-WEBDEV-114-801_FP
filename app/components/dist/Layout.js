@@ -51,10 +51,14 @@ var Layout = /** @class */ (function (_super) {
                     (react_1["default"].createElement("div", { className: "cookie-consent" },
                         react_1["default"].createElement("p", null,
                             "This is a statically exported ",
-                            react_1["default"].createElement("a", { href: "https://www.nextjs.com", target: "_blank" }, "NextJs"),
+                            react_1["default"].createElement("a", { href: "https://www.nextjs.com", target: "_blank" }, "NextJS"),
                             " project.\u00A0 It was build in Typescript superset, React HTML rendering, Sass CSS compilation, and Mongo database backend. You can browse the project files at my public github\u00A0",
                             react_1["default"].createElement("a", { href: "https://github.com/rinderlm-matc/FA2021-WEBDEV-114-801_FP", target: "_blank" }, "repository"),
-                            "."),
+                            ". You can also grab a test crypto trading ledger",
+                            react_1["default"].createElement("a", { href: "https://github.com/rinderlm-matc/FA2021-WEBDEV-114-801_FP/blob/master/app/public/files/trades.csv", target: "_blank" }, "\u00A0csv file"),
+                            "\u00A0to test on the profile page. NextJS has been configured to combine all SASS stylesheets into a style tag in the head. My custom css framework is located ",
+                            react_1["default"].createElement("a", { href: "https://github.com/rinderlm-matc/FA2021-WEBDEV-114-801_FP/tree/master/app/public/css", target: "_blank" }, "here"),
+                            "\u00A0 for easy viewing. If having a statically compiled css stylesheet is absolutely required for the final project I can reconfigure it after my workflow is mostly done."),
                         react_1["default"].createElement("p", { className: "cookie-accept", onClick: this.acceptCookie }, "x")))
                 : (react_1["default"].createElement("div", null)),
             react_1["default"].createElement(Footer_1["default"], { copyright: constants_1.copyright })));
